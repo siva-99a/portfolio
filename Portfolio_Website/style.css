@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    width: 100%;
+}
+.home_section{
+    height: 95vh;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+nav {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 10px 30px;
+    position: fixed;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: space-between;
+    background-color: #eff4fd;
+}
+.logo{
+    height: 45px;
+    width: 140px;
+}
+nav ul{
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    margin: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: orangered;
+}
+.details-card{
+    padding-left: 8%;
+    padding-top: 15%;
+}
+.details-card h1{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 50px;
+}
+.details-card h1 span{
+    color: #9ffd32;
+}
+.details-card p{
+    line-height: 22px;
+    color: #ddddff;
+}
+.details-card a{
+    background-color: #ddddff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #212121;
+    margin: 30px 0;
+    display: inline-block;
+    border-radius: 5px;
+}
+.pictures{
+   width: 45%;
+   height: 80%; 
+   position: absolute;
+   bottom: 0;
+   right: 100px;
+}
+.pictures img{
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.pictures:hover .shape{
+    bottom: 60px;
+
+}
+.pictures:hover .dev{
+    left: 56%;
+}
+.skills-section{
+    height: 80vh;
+    padding: 70px 20px 20px 30px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to left,#ea52f8,#0066ff);
+    color: #fff;
+}
+.skills-section .main-head{
+    font-size: 50px;
+    color: red;
+}
+.head-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0 0 20px;
+}
+.first-div{
+    display: flex;
+    margin: 30px 0;
+    width: 50%;
+}
+.skil-icon1{
+    font-size: 40px;
+    margin: 8px 15px 0 0;
+    color: #2c3e50;
+}
+.icon1-head{
+    margin-bottom: 10px;
+    color: darkgrey;
+    font-size: 20px;
+}
+.icon1-des{
+    margin-bottom: 10px;
+    color: #eff4fd;
+    font-size: 15px;
+}
+.project-section{
+    height: 80vh;
+    padding: 70px 20px 20px 30px;
+    font-family: sans-serif;
+    background-image: linear-gradient( #bdc3c7,#2c3e50);
+    color: #fff;
+}
+.project-section h1{
+    font-size: 50px;
+    color: #4b0ed8;
+}
+.project-section .images{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 40px 0 0 0;
+}
+.project-section .images .p-img{
+    height: 250px;
+    width: 250px;
+
+}
+.project-section .images div p a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.project-section .images div p a:hover{
+    color: #29b2db;
+}
+.second-div{
+    margin: 30px 0 0 0;
+}
+.second-div h1{
+    font-size: 27px;
+    color: #2c3e50;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.skill-card-div {
+    display: flex;
+}
+.skill-card-div div{
+    height: 100px;
+    width: 100px;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px black;
+}
+.skill-card-div div img{
+    height: 80px;
+    width: 80px;
+}
+.contact-section{
+    height: 60vh;
+    font-family: sans-serif;
+    background-color: #ffa73c;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.contact-section h1{
+    font-size: 50px;
+    color: royalblue;
+}
+.contact-section .collab{
+    font-size: 50px;
+    margin: 75px 0 60px 0;
+    color: lightgray;
+}
+.contact-section .cont{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: underline;
+}
+.contact-section .social{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+
+}
+.contact-section .social img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin: 0 10px 0 0;
+}
+.contact-section .social .twit{
+    border-radius: 0px;
+}
+.contact-section .social .insta{
+    border-radius: 10px;
+}
+.contact-section .copyright{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0px 0;
+}
+.contact-section .copyright p{
+    margin: 0 0 0 8px;
+}
