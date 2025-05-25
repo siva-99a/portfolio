@@ -21,6 +21,7 @@ nav {
     font-family: sans-serif;
     justify-content: space-between;
     background-color: #eff4fd;
+    z-index:1;
 }
 .logo{
     height: 45px;
